@@ -1,56 +1,77 @@
-*{
-  box-sizing: border-box;
-}
-
-.container{
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
-    
-}
-
-.timer{
+    margin-top: 10%; 
+  }
+  
+  .timer {
     width: 20px;
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgb(31, 31, 3);
     position: absolute;
-    top: 3rem;
-}
-
-.box{
-    background:  rgb(223, 203, 24);
-    width: 500px;
-    height: 450px;
+    top: 1rem;
+  }
+  
+  .box {
+    background: rgb(223, 203, 24);
+    width: 80%; 
+    max-width: 500px; 
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    padding: 12px;
-   
-}
-.quote{
+    gap: 1.5rem; 
+    padding: 2%;
+  }
+  
+  .quote {
     color: black;
-    font-size: 2rem;
-
-
-}
-
-#quote-input{
-   width: 100%;
-   height: 17rem;
-   background-color: black;
-   color: rgb(255, 213, 0);
-   font-size: 25px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   
-}
-.correct{
+    font-size: 1.5rem; 
+    text-align: center;
+  }
+  
+  #quote-input {
+    width: 100%;
+    height: 10rem; 
+    background-color: black;
+    color: rgb(255, 213, 0);
+    font-size: 1.2rem; 
+    resize: none; 
+  }
+  
+  .correct {
     color: green;
-}
-.incorrect{
+  }
+  
+  .incorrect {
     color: red;
-}
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .timer {
+      font-size: 1.5rem;
+    }
+  
+    .box {
+      width: 90%;
+      padding: 5%;
+    }
+  
+    #quote-input {
+      height: 8rem;
+    }
+  }
+  
