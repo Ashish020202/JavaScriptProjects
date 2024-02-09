@@ -8,6 +8,9 @@ body{
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 5px;
     padding:3px;
 }
@@ -21,8 +24,22 @@ p{
     padding: 3px;
 }
 
-.swapbtn{
-    padding: 3px;
+.btn{
+    padding: 6px;
     gap: 4rem;
-    background: rgb(89, 195, 160);
+    color: #fff;
+    background-color: rgb(89, 195, 160);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.currency{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.currency2{
+    padding: 40px;
+
 }
