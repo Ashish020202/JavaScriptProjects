@@ -24,6 +24,11 @@ p{
     padding: 3px;
 }
 
+.swapbtn{
+    display: flex;
+    justify-content: space-between;
+}
+
 .btn{
     padding: 6px;
     gap: 4rem;
@@ -40,6 +45,11 @@ p{
     align-items: center;
 }
 .currency2{
-    padding: 40px;
+   display: flex;
+   margin-top: 30px;
 
+}
+
+.rate{
+    color: rgb(120, 120, 24);
 }

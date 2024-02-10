@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="source.js"></script>
+   
 </head>
 <body>
     <img src="money.png" alt="">
@@ -14,7 +14,7 @@
 
     <div class="container">
         <div class="currency">
-            <select id="currency1">
+            <select id="currency-one">
                 <option value="AED">AED</option>
                 <option value="ARS">ARS</option>
                 <option value="AUD">AUD</option>
@@ -75,9 +75,9 @@
             <button class="btn" id="btnid">Swap</button>
             <div class="rate" id="rateid"></div>
         </div>
-
-            <div class="currency2">
-                <select id="currency2">
+            
+            <div class="currency">
+                <select id="currency-two">
                     <option value="AED">AED</option>
                     <option value="ARS">ARS</option>
                     <option value="AUD">AUD</option>
@@ -93,7 +93,7 @@
                     <option value="DKK">DKK</option>
                     <option value="DOP">DOP</option>
                     <option value="EGP">EGP</option>
-                    <option value="EUR">EUR</option>
+                    <option value="EUR" selected>EUR</option>
                     <option value="FJD">FJD</option>
                     <option value="GBP">GBP</option>
                     <option value="GTQ">GTQ</option>
@@ -126,15 +126,16 @@
                     <option value="TRY">TRY</option>
                     <option value="TWD">TWD</option>
                     <option value="UAH">UAH</option>
-                    <option value="USD" selected>USD</option>
+                    <option value="USD">USD</option>
                     <option value="UYU">UYU</option>
                     <option value="VND">VND</option>
                     <option value="ZAR">ZAR</option>
                   </select>
                   <input type="text" name="" id="amount2">
-                  <div class="rate" id="rateid2"></div>
+                  
             </div>
           </div>
     </div>
+    <script src="source.js"></script>
 </body>
 </html>
